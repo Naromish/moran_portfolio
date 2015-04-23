@@ -128,10 +128,11 @@ div {
   text-align: center;
   padding-top: 80px;
 
+
 }
 
-figure { 
-    width: 210px;
+img.figure { 
+    width: 10%;
     margin: 0px;
     padding:10px; 
     display: inline-block;
