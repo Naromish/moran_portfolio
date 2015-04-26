@@ -443,6 +443,7 @@ hr {
   width: 90%;
   margin: auto;
 }
+}
 
 /*media query @media screen and (min-width: 320px) and (max-width: 480px) */
 
@@ -563,34 +564,34 @@ a:hover {
 .icon {
   float: left;
   position: relative;
-  left: -50%;
-
+  width: 50%;
+  padding-bottom: 50%;
 }
 .wrappercontent {
   float: left;
   position: relative;
-  left: 50%;
+  width: 50%;
 }
 
  .content {
 
- width: 100%;
+ width: 50%;
   margin: auto;
 }
 
 figure { 
-  margin: .05em;
+  margin: 0em;
   padding-top: .75em;
-  padding-left: 0em;
-  padding-right: 0em;
-  padding-top: 0px;
+  padding-left: 5em;
+  padding-right: 5em;
+  padding-top: 5em;
   text-align: center;
-  clear: both;
+  clear: left;
 
 }
 figure img {
-  width: 75px;
-  height: 75px;
+  width: 100px;
+  height: 100px;
 
 }
 figcaption {
@@ -608,6 +609,7 @@ figcaption {
     opacity: 0.7;
 
 }
+
 
 img.medium{
   width: 300px;
@@ -664,4 +666,5 @@ hr {
  .wrapper {
   width: 90%;
   margin: auto;
+}
 }
