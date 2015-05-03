@@ -444,13 +444,16 @@ h1 {
         color: rgb(232, 72, 18);
     }
     .icon {
-        float: left;
-        position: relative;
+        /*float: left;
+        position: relative;*/
 }
 
     .wrappercontent {
-        float: left;
-        position: relative;
+        /*float: left;
+        position: relative;*/
+        float: right;
+        left: 14.25em;
+
     }
     .content {
         margin: auto;
