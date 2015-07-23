@@ -1,10 +1,8 @@
 body {
-  font-family: 'Lato', sans-serif;
-
+    font-family: 'Lato', sans-serif;
 }
 
 h1 {
-    
     font-weight: 400;
     font-size: 2.2em;
     color: rgb(8, 54, 67);
@@ -12,7 +10,7 @@ h1 {
     margin-left: auto;
     margin-right: auto;
     max-width: 800px;
-    margin-top: 80px;
+    margin-top: 40px;
     margin-bottom: 40px;
 }
 
@@ -65,12 +63,25 @@ p {
     line-height: 130%;
     margin-left: auto;
     margin-right: auto;
+    padding-bottom: 20px;
+
+}
+
+ul> li {
+    font-weight: 300;
+    font-size: 1.2em;
+    list-style: none;
+    line-height: 130%;
+}
+.bullets {
+        margin-top: -20px;
+            text-indent: .1em;
+
 }
 
 .title {
     padding-top: -20px;
 }
-
 
 nav > li {
     display: inline-block;
@@ -146,6 +157,15 @@ img.align-right {
     margin-left: 10px;
     margin-bottom: 1em;
 }
+.sidebarleft {
+    float: left;
+    margin-left: 0px;
+     margin-top: 4em;
+    margin-bottom: 1em;
+     width: 25%;
+     padding-right: 30px;
+
+}
 
 .content-footer {
     width: 90%;
@@ -170,6 +190,8 @@ img.small {
     padding: 5px;
 }
 
+
+
 .footer {
     font-weight: 300;
     text-align: left;
@@ -191,14 +213,23 @@ hr {
     width: 90%;
     margin: auto;
 }
-/*media query @media screen and (min-width: 480px) and (max-width: 980px) */
+
+.photoset-grid-basic {
+    margin: auto;
+    text-align: center;
+    padding-bottom: 3%;
+
+}
+
+
+
+/*media query @media screen and (min-width: 736px) and (max-width: 980px) */
 
 @media screen and (min-width: 480px) and (max-width: 980px) {
     body {
-  font-family: 'Lato', sans-serif;
-
-}
-h1 {
+        font-family: 'Lato', sans-serif;
+    }
+    h1 {
         font-weight: 400;
         font-size: 1.5em;
         color: rgb(8, 54, 67);
@@ -223,7 +254,7 @@ h1 {
         font-weight: 400;
         font-size: 1.3em;
         color: rgb(232, 77, 18);
-        text-align: center;
+        text-align: left;
         letter-spacing: .05em;
         text-transform: uppercase;
     }
@@ -268,6 +299,19 @@ h1 {
         text-align: right;
         margin-top: -5.6em;
     }
+
+ul> li {
+    font-weight: 300;
+    font-size: 1em;
+    list-style: none;
+    line-height: 130%;
+}
+.bullets {
+        margin-top: -20px;
+            text-indent: .1em;
+
+}
+
     a {
         color: rgb(71, 108, 94);
         text-decoration: none;
@@ -359,14 +403,13 @@ h1 {
         margin: auto;
     }
 }
-/*media query @media screen and (min-width: 320px) and (max-width: 480px) */
+/*media query @media screen and (min-width: 320px) and (max-width: 736px) */
 
 @media screen and (min-width: 320px) and (max-width: 480px) {
     body {
-  font-family: 'Lato', sans-serif;
-
-}
-h1 {
+        font-family: 'Lato', sans-serif;
+    }
+    h1 {
         font-weight: 400;
         font-size: 1em;
         color: rgb(8, 54, 67);
@@ -390,7 +433,7 @@ h1 {
         font-weight: 400;
         font-size: 1em;
         color: rgb(232, 77, 18);
-        text-align: center;
+        text-align: left;
         letter-spacing: .05em;
         text-transform: uppercase;
         padding-bottom: .3em;
@@ -436,6 +479,19 @@ h1 {
         text-align: center;
         margin-top: 20px;
     }
+
+ul> li {
+    font-weight: 300;
+        font-size: .9em;
+    list-style: none;
+    line-height: 130%;
+}
+.bullets {
+        margin-top: -20px;
+            text-indent: .1em;
+
+}
+    
     a {
         color: rgb(71, 108, 94);
         text-decoration: none;
@@ -444,16 +500,15 @@ h1 {
         color: rgb(232, 72, 18);
     }
     .icon {
-        /*float: left;
-        position: relative;*/
-}
-
+        float: center;
+        position: relative;
+    }
     .wrappercontent {
         /*float: left;
-        position: relative;*/
-        float: right;
-        left: 14.25em;
-
+        position: relative;
+        
+        float: center;
+        left: 14.25em;*/
     }
     .content {
         margin: auto;
@@ -468,8 +523,9 @@ h1 {
         text-align: center;
     }
     figure img {
-        width: 145px;
-        height: 145px;
+        width: 75%;
+        height: 75%;
+        text-align: center;
     }
     figcaption {
         font-weight: 400;
@@ -513,7 +569,7 @@ h1 {
     .footer {
         font-weight: 300;
         text-align: left;
-        font-size: .6em;
+        font-size: .5em;
         margin: auto;
         width: 90%;
     }

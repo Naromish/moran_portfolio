@@ -1,0 +1,25 @@
+/*$('.photoset-grid-lightbox').photosetGrid({
+  highresLinks: true,
+  rel: 'withhearts-gallery',
+  gutter: '2px',
+
+  onComplete: function(){
+    $('.photoset-grid-lightbox').attr('style', '');
+    $('.photoset-grid-lightbox a').colorbox({
+      photo: true,
+      scalePhotos: true,
+      maxHeight:'90%',
+      maxWidth:'90%'
+    });
+  }
+});/*
+
+$('.photoset-grid-basic').photosetGrid({
+
+onComplete: function(){
+
+$('.photoset-grid-basic').attr('style', '');
+
+}
+
+});
